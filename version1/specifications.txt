@@ -1,0 +1,10 @@
+Logic Level: CMOS (5V)
+
+Architecture: Havard
+Instruction Width: 16
+Address Width: 24
+
+Program Memory Type: Parallel EEPROM
+Program Memory Size: 512K-Bit or 64K-Byte
+
+
