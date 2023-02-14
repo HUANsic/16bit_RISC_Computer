@@ -1,0 +1,210 @@
+# Compile of memoryBusSwitch.v failed with 11 errors.
+# Compile of testbench.v was successful.
+# 2 compiles, 1 failed with 11 errors.
+# Compile of memoryBusSwitch.v was successful.
+# Compile of memoryBusSwitch.v was successful.
+# Compile of testbench.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.tb
+# vsim -gui work.tb 
+# Start time: 10:20:58 on Feb 14,2023
+# Loading work.tb
+# Loading work.busSwitch
+add wave -position insertpoint  \
+sim:/tb/clk
+add wave -position insertpoint  \
+sim:/tb/reset
+add wave -position insertpoint  \
+sim:/tb/testSwitch/data
+add wave -position insertpoint  \
+sim:/tb/testSwitch/loadEnable
+add wave -position insertpoint  \
+sim:/tb/testSwitch/outputEnable
+add wave -position insertpoint  \
+sim:/tb/testSwitch/data_from_storage
+add wave -position end  sim:/tb/testSwitch/address
+add wave -position end  sim:/tb/testSwitch/data
+add wave -position end  sim:/tb/testSwitch/loadEnable
+add wave -position end  sim:/tb/testSwitch/outputEnable
+add wave -position end  sim:/tb/testSwitch/clk
+add wave -position end  sim:/tb/testSwitch/reset
+add wave -position end  sim:/tb/testSwitch/data_from_storage
+add wave -position end  sim:/tb/testSwitch/load_out
+add wave -position end  sim:/tb/testSwitch/match
+add wave -position end  sim:/tb/testSwitch/data_to_bus
+run
+run
+run
+run
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of memoryBusSwitch.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.busSwitch
+run
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of testbench.v failed with 1 errors.
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+run
+run
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of memoryBusSwitch.v was successful.
+# Compile of register.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.register
+# Loading work.busSwitch
+add wave -position end  sim:/tb/testReg/storage
+run
+add wave -position end  sim:/tb/testReg/load
+add wave -position end  sim:/tb/testReg/data_in
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of memoryBusSwitch.v was successful.
+# Compile of testbench.v failed with 5 errors.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of testbench.v failed with 5 errors.
+# Compile of testbench.v failed with 2 errors.
+# Compile of testbench.v failed with 2 errors.
+# Compile of memoryBusSwitch.v was successful.
+# Compile of testbench.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of testbench.v failed with 2 errors.
+# Compile of testbench.v failed with 1 errors.
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+# Loading work.busSwitch
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/testSwitch/address'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/testSwitch/data'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/testSwitch/loadEnable'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/testSwitch/outputEnable'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/testSwitch/clk'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/testSwitch/reset'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/testSwitch/data_from_storage'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/testSwitch/load_out'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/testSwitch/match'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb/testSwitch/data_to_bus'. 
+run
+add wave -position end  sim:/tb/ioBusSwitch/match
+add wave -position end  sim:/tb/romBusSwitch1/match
+restart
+run
+add wave -position 0  sim:/tb/address
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+# Compile of testbench.v was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb
+run
+run -all
+add wave -position end  sim:/tb/ioBusSwitch/outputDisable
+add wave -position end  sim:/tb/romBusSwitch1/outputDisable
+restart
+run
+run -all
+restart
+run
+restart
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

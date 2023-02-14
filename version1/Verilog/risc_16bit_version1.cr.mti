@@ -1,0 +1,15 @@
+C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/memoryBusSwitch.v {1 {vlog -work work -stats=none C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/memoryBusSwitch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module busSwitch
+
+Top level modules:
+	busSwitch
+
+} {} {}} C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/register.v {1 {vlog -work work -stats=none C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}}

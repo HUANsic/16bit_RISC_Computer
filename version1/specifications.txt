@@ -1,10 +1,14 @@
 Logic Level: CMOS (5V)
 
 Architecture: Havard
+Stages: 1
 Instruction Width: 16
 Address Width: 24
 
-Program Memory Type: Parallel EEPROM
-Program Memory Size: 512K-Bit or 64K-Byte
+Read-Only Program Memory Type: Parallel EEPROM
+Read-Only Program Memory Size: 512K-Bit or 64K-Byte
 
+Read-Only Data Memory Type: Parallel EEPROM
+Read-Only Data Memory Type: 64K-Bit or 8K-Byte
 
+Number of General Purpose Registers: 16

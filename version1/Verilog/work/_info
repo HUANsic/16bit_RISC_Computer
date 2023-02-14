@@ -1,0 +1,81 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1/modelsim_ase/win32aloem
+vbusSwitch
+!s110 1676354281
+!i10b 1
+!s100 <KN4IlAjVRaO9YUknU56`0
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9mS11W`DPGSLBBK>bPT5b1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog
+w1676354273
+8C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/memoryBusSwitch.v
+FC:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/memoryBusSwitch.v
+!i122 20
+L0 1 34
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1676354281.000000
+!s107 C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/memoryBusSwitch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/memoryBusSwitch.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+nbus@switch
+vregister
+!s110 1676331418
+!i10b 1
+!s100 `M`^56dJA61Cb<MEWhl=F1
+R0
+I>C9aVX]nfJeM;G9^HdXGd1
+R1
+R2
+w1676331393
+8C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/register.v
+FC:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/register.v
+!i122 12
+L0 1 22
+R3
+r1
+!s85 0
+31
+!s108 1676331418.000000
+!s107 C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/register.v|
+!i113 1
+R4
+R5
+vtb
+!s110 1676354617
+!i10b 1
+!s100 :jFioFZHBhl]Kain^[m;_2
+R0
+Ia<UWeP1kz?nI^=[a7_j@[1
+R1
+R2
+w1676354610
+8C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/testbench.v
+FC:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/testbench.v
+!i122 23
+L0 1 80
+R3
+r1
+!s85 0
+31
+!s108 1676354617.000000
+!s107 C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/abcde/Documents/ShutDown/Tsinghua/16bit_RISC_Computer/version1/Verilog/work/testbench.v|
+!i113 1
+R4
+R5
