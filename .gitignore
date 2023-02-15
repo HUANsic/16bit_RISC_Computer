@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+# Verilog files
+transcript
+*.wlf
+*.tmp
+*.mti
